@@ -1,0 +1,75 @@
+body {
+    background-color: #f8c0dc;
+   
+    }
+        
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    border: #333;
+    
+    
+}
+
+.myMessage {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    max-width: 80%; 
+}
+
+.myMessage.darkmode {
+    background-color: black;
+    color: white;
+}
+
+
+.theMessageButton,
+.clearMessageButton,
+.addFruitsButton {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.theMessageButton:hover,
+.clearMessageButton:hover,
+.addFruitsButton:hover {
+    background-color: #0056b3;
+}
+
+.theInputValue,
+.InputFruits {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fruits {
+    list-style-type: none;
+    padding: 0;
+    max-width: 80%;
+}
+
+.fruits li {
+    margin-bottom: 5px;
+}
+
+
+.darkmode {
+    background-color: #333;
+    color: white;
+}
